@@ -1,0 +1,5 @@
+<script>
+function authenticateUser(username, password) {
+  var accounts = apiService.sql(
+    "SELECT * FROM users"
+  );
